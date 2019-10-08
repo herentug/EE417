@@ -10,14 +10,20 @@ figure
 img1=imread('city.png');
 
 
-subplot(1,2,1);
+subplot(2,2,1);
 imshow(img1);
 title('Original City')
 
-subplot(1,2,2);
+subplot(2,2,2);
 img12=lab1linscale(img1);
 imshow(img12);
 title('Linear Scaling')
+
+subplot(2,2,3);
+imhist(img1);
+
+subplot(2,2,4);
+imhist(img12);
 
 %Task 2%
 
