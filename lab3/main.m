@@ -40,6 +40,6 @@ img4 = imread('house.png');
  delete(x(2)); x(2)=[];                         % delete the second frame.
  set(x(1),'position',posn)                      % Set first to average location
  
- subplot(2,2,3);imshow(lab2sobelfilt(img4,'Y'));title('Sobel Horizontal Image');
- subplot(2,2,4);imshow(lab2sobelfilt(img4,'X'));title('Sobel Vertical Image');
+ subplot(2,2,3);imshow(lab2sobelfilt(img4,'Y'));title('Sobel Horizontal Filtered Image');
+ subplot(2,2,4);imshow(lab2sobelfilt(img4,'X'));title('Sobel Vertical Filtered Image');
 

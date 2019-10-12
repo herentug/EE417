@@ -1,10 +1,5 @@
 function ret = lab1locbox(img, k)
 
-
-
-
-
-
 if(length(size(img))==3)
 
     img = rgb2gray(img);
