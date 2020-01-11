@@ -10,7 +10,7 @@ subplot(2,3,1);imshow(rgb2gray(I));title("Original Image");
 subplot(2,3,2);imshow(lab3sobelfilt(I,'X'));title("Sobel X Filtered Image");
 subplot(2,3,3);imshow(lab3sobelfilt(I,'Y'));title("Sobel Y Filtered Image");
 subplot(2,3,5);imshow(lab3sobelfilt(I,"XY"));title("Sobel Gradient");
-subplot(2,3,6);imshow(lab3sobelfilt(I,"Edge",150));title("Sobel Edges");
+subplot(2,3,6);imshow(lab3sobelfilt(I,"Edge",120));title("Sobel Edges");
 
 
 

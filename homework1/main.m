@@ -3,6 +3,9 @@ I= imread('27.png');
 if(length(size(I))==3)
     I=rgb2gray(I);
 end
+
+I=imgaussfilt(I);
+I=edge(I,'Prewitt');
 I=uint8(I);
 
 figure;

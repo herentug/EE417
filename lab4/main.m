@@ -4,17 +4,22 @@ clc;clear all;close all;
 
 % Task 1
 I = checkerboard;
-
-imshow(lab4ktcorners(I,1))
-
+imwrite(I,'c.png');
+% I=imread('blocks.png')
+% imshow(I);
+% I=rgb2gray(I);
+% 
+% imshow(lab4ktcorners(I,20))
 
 % Task 2
-I2= imread('checker.jpg');
-lab4houghlines(I2);
-
-
+% tic
+% I2= imread('checker.jpg');
+% lab4houghlines(I2);
+% toc
 
 % Task 3
-lab4houghcircles();
+% I=imread("circlesBrightDark.png")
+% 
+% lab4houghcircles(I);
 
 
